@@ -1,0 +1,17 @@
+Description
+This is a simple Python-based cricket score simulator where two teams take turns to play their innings.  
+Features
+→ Interactive input for runs or wickets.
+→ Each team has 20 balls and a maximum of 10 wickets.
+→ Only 0 to 6 runs are allowed per ball.
+→ Displays when a player is out.
+→ Announces Team A Wins,Team B Wins, or Draw based on final scores.
+
+Working
+1. Team A bats first.  
+   → For each ball, the user enters either:
+   → A number (0–6) for runs, or  
+   →`"o"` or `"out"` if the player is out.
+2. When all 20 balls are used or 10 wickets fall, Team A’s score is saved.
+3. Team B then bats under the same rules.
+4. The program compares both scores and prints the match result.
